@@ -1,6 +1,8 @@
 Cleaning report
 ===============
 
+Terry
+
 raw_rows_before_drop: 4862
 rows_after_drop: 4742
 date_min: 2006-08-24
