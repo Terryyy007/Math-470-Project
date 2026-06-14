@@ -1,0 +1,25 @@
+Cleaning report
+===============
+
+raw_rows_before_drop: 4862
+rows_after_drop: 4742
+date_min: 2006-08-24
+date_max: 2026-03-03
+train_rows: 3007
+validation_rows: 730
+test_rows: 1005
+loss_threshold_train_q90: 0.09528889984673478
+es_threshold_train_q90: 0.06786040285666652
+macro_cols_total: 17
+macro_cols_kept: 15
+macro_cols_dropped_missing: 2
+
+Final columns by group
+----------------------
+Total columns: 73
+Market/date/label columns: 58
+Macro columns: 15
+
+Suggested next step
+-------------------
+Start with high_risk_es_60d as the classification target and use AUC / precision@10% for evaluation.
